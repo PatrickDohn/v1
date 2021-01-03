@@ -47,7 +47,7 @@ function Footer() {
               <i className='fab fa-typo3' />
             </Link>
           </div>
-          <small className='website-rights'>PD © 2020</small>
+          <small className='website-rights'>built with React</small>
         </div>
       </section>
     </div>
