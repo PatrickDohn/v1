@@ -11,18 +11,10 @@ function Projects() {
       <h1>Projects</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
-          <div className='cards__items-1'>
-            <ProjectOne />
-          </div>
-          <div className='cards__items-2'>
-            <ProjectTwo />
-          </div>
-          <div className='cards__items-3'>
-            <ProjectThree />
-          </div>
-          <div className='cards__items-4'>
-            <ProjectFour />
-          </div>
+          <ProjectOne />
+          <ProjectTwo />
+          <ProjectOne />
+          <ProjectOne />
         </div>
       </div>
     </div>
