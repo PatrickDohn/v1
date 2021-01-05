@@ -41,8 +41,13 @@
   /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 10px;
+
+}
+
+.project-title > h2 {
+  color: #ca6d65;
 }
 
 .project-title > p {
@@ -51,8 +56,7 @@
 
 .project-desciption {
   /* border: 2px solid red; */
-  right: 100px;
-  overflow: visible;
+  margin-left: 20px;
 }
 
 .project-card-links {
@@ -75,11 +79,12 @@
 
 .project-card-links .devicon-github-plain {
   margin: 0;
-  color: #e9e9e9;;
+  color: #e9e9e9;
+  font-size: 25px;
 }
 
 .project-card-links .devicon-github-plain:hover {
-  color: #e9e9e9;
+  color: #ca6d65;
   transition: 0.3s ease-out;
 }
 
@@ -88,6 +93,6 @@
 }
 
 .web-icon:hover {
-  color: red;
+  color: #ca6d65;
   transition: 0.3s ease-out;
 }

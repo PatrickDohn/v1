@@ -1,6 +1,5 @@
 .about-container {
     background-color: #242424;
-
     height: 100vh;
     z-index: 2;
     display: flex;
@@ -24,12 +23,12 @@
 
   .about-summary-heading {
     color: #fff;
-    font-size: 50px;
     text-align: center;
+
   }
 
   .about-summary-text {
-    font-size: 25px;
+
     width: 50%;
     text-align: center;
 

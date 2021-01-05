@@ -11,6 +11,7 @@ function ProjectTwo() {
       </div>
       <div className="card-content">
         <div className="project-title">
+          <p>General Assembly 2020 Hackathon Winner</p>
           <h2>MediThanks</h2>
           <p>Virtual thanks you board</p>
         </div>
