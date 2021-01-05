@@ -2,6 +2,7 @@ import React from 'react';
 import './projects.css';
 import ProjectOne from './Projects/ProjectOne'
 import ProjectTwo from './Projects/ProjectTwo'
+import ProjectThree from './Projects/ProjectThree'
 
 function Projects() {
   return (
