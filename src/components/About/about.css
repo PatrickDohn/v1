@@ -51,7 +51,7 @@
 
   .about-link-wrapper {
     display: flex;
-    width: 100vw;
+    width: 100%;
     height: 100%;
     margin: 0 0 10px 0;
     justify-content: center;
@@ -96,6 +96,11 @@
   }
 
   .about-link-items:hover {
-    color: black;
+    color: #ca6d65;
     transition: 0.3s ease-out;
+  }
+
+  .about-link-items > i {
+    margin: 0;
+    padding: 20px;
   }

@@ -45,7 +45,7 @@ function Navbar() {
                         <Link to="/" className="navbar-logo"
                         onClick={closeMobileMenu}
                         >
-                            PD
+                            Patrick Dohn
                         </Link>
                         <div className="menu-icon">
                             <IconButton className="menuBtn" onClick={handleClick}>
@@ -69,13 +69,13 @@ function Navbar() {
                                     </a>
                                 </li>
                                 <li className="nav-item">
-                                    <a href='#projects' className='nav-links' onClick={closeMobileMenu}>
-                                        Projects
+                                    <a href='#feature-project' className='nav-links' onClick={closeMobileMenu}>
+                                        Featured Project
                                     </a>
                                 </li>
                                 <li className="nav-item">
-                                    <a href='#feature-project' className='nav-links' onClick={closeMobileMenu}>
-                                        Feature Project
+                                    <a href='#projects' className='nav-links' onClick={closeMobileMenu}>
+                                        Other Projects
                                     </a>
                                 </li>
                                 <li className="nav-item">

@@ -1,10 +1,12 @@
 .project-container {
     padding: 4rem;
-    background: #fff;
+    padding-top: calc(4rem + 80px);
+    background-color: #242424;
   }
 
   h1 {
     text-align: center;
+    color: #fff;
   }
 
   .cards__container {

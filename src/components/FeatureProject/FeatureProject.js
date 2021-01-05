@@ -15,7 +15,7 @@ function FeatureProject() {
         </div>
         <section className="project-summary">
           <div className="info-container">
-
+            <p>Application built with React. It transforms JSON into a downloadable PDF. Bundled with WebPack</p>
           </div>
           <div className="project-link">
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css" />

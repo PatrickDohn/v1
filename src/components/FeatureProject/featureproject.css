@@ -1,13 +1,15 @@
 .feat-project-container {
     height: 100vh;
+    padding-top: 80px;
 }
 
 .feat-project-container > h1 {
     margin-top: 10px;
+    color: black;
 }
 
 .feat-project-img {
-    height: 600px;
+    object-fit: contain;
     width: 60vw;
     border-radius: 20px;
     margin-left: 20px;

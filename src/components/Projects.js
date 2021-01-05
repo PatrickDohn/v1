@@ -2,8 +2,6 @@ import React from 'react';
 import './projects.css';
 import ProjectOne from './Projects/ProjectOne'
 import ProjectTwo from './Projects/ProjectTwo'
-import ProjectThree from './Projects/ProjectThree'
-import ProjectFour from './Projects/ProjectFour'
 
 function Projects() {
   return (
@@ -11,9 +9,7 @@ function Projects() {
       <h1>Projects</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
-          <ProjectOne />
           <ProjectTwo />
-          <ProjectOne />
           <ProjectOne />
         </div>
       </div>

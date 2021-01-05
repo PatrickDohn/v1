@@ -9,17 +9,6 @@ import { IconButton } from '@material-ui/core';
 function Footer() {
   return (
     <div className='footer-container'>
-      <section className='footer-location'>
-        <p className='footer-location-heading'>
-          Location
-        </p>
-        <p className='footer-location-text'>
-          Effort, PA 18330
-        </p>
-        <div className='input-areas'>
-
-        </div>
-      </section>
       <div className='footer-links'>
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
@@ -47,7 +36,7 @@ function Footer() {
               <i className='fab fa-typo3' />
             </Link>
           </div>
-          <small className='website-rights'>built with React</small>
+
         </div>
       </section>
     </div>
