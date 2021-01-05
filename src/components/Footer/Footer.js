@@ -29,16 +29,6 @@ function Footer() {
           "https://www.linkedin.com/in/patrick-dohn/" */}
         </div>
       </div>
-      <section className='social-media'>
-        <div className='social-media-wrap'>
-          <div className='footer-logo'>
-            <Link to='/' className='social-logo'>
-              <i className='fab fa-typo3' />
-            </Link>
-          </div>
-
-        </div>
-      </section>
     </div>
   );
 }
