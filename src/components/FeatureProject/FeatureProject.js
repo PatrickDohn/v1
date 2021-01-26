@@ -1,9 +1,6 @@
 import React from 'react';
 import './featureproject.css';
-import { Link } from 'react-router-dom';
 import ProjectImg from '../../images/Res-Gen.png'
-import GitHubIcon from '@material-ui/icons/GitHub';
-import { IconButton } from '@material-ui/core';
 import WebAssetIcon from '@material-ui/icons/WebAsset';
 
 function FeatureProject() {
@@ -16,14 +13,14 @@ function FeatureProject() {
         </div>
         <section className="project-summary">
           <div className="info-container">
-            <p>Application built with React. It transforms JSON into a downloadable PDF. Bundled with WebPack</p>
+            <p>Resume building application for software developers. Built using React, the app transforms JSON into a downloadable PDF.</p>
           </div>
           <div className="project-link">
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css" />
             <a href="https://github.com/starter-code/res-gen">
             <i className="devicon-github-plain dev"></i>
             </a>
-            <a href="res-gen.netlify.app/">
+            <a href="https://res-gen.netlify.app/#/">
             <WebAssetIcon className='feat-web-icon' />
             </a>
           </div>
