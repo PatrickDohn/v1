@@ -2,7 +2,7 @@ import React from 'react';
 import './projects.css';
 import ProjectOne from './Projects/ProjectOne'
 import ProjectTwo from './Projects/ProjectTwo'
-import ProjectThree from './Projects/ProjectThree'
+import ProjectFour from './Projects/ProjectFour'
 
 function Projects() {
   return (
@@ -14,6 +14,7 @@ function Projects() {
           <ProjectOne />
         </div>
       </div>
+
     </div>
   );
 }
@@ -54,3 +55,11 @@ text='Tic-tac-toe'
 label='Game'
 path='/sign-up'
 /> */}
+
+
+{/* <div className='cards__container'>
+        <div className='cards__wrapper'>
+          <ProjectTwo />
+          <ProjectOne />
+        </div>
+      </div> */}
