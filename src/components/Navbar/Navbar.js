@@ -19,7 +19,7 @@ function Navbar() {
                         <a href='#home' className="navbar-logo"
                         onClick={closeMobileMenu}
                         >
-                            Patrick Dohn
+
                         </a>
                         <div className="menu-icon">
                             <IconButton className="menuBtn" onClick={handleClick}>

@@ -8,14 +8,9 @@ function About() {
   return (
     <div className='about-container' id='about'>
       <section className='about-summary'>
-        <h1 className='about-summary-heading'>
-          About
-        </h1>
-        <p className='about-summary-text'>
-        Developer focused on finding innovative ways to efficiently develop, design, and optimize web applications. I'm a hard-working, quick learning individual who strives in pushing myself and learning new things.
-        </p>
+
+      <h2 className='about-summary-text'>Technologies I've used.</h2>
       </section>
-      <h2>Technologies</h2>
       <div className='about-links'>
 
         <div className='about-link-wrapper'>

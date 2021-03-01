@@ -22,7 +22,7 @@
   .navbar-logo {
     color: #fff !important;
     justify-self: start !important;
-    margin-left: 10px !important;
+    margin-left: 50px !important;
     cursor: pointer !important;
     text-decoration: none !important;
     font-size: 2rem !important;
@@ -55,7 +55,7 @@
     grid-gap: 10px;
     list-style: none;
     text-align: center;
-    width: 70vw;
+    width: 90vw;
     justify-content: end;
     margin-right: 2rem;
   }
@@ -74,7 +74,8 @@
   }
 
   .nav-links:hover {
-    border-bottom: 4px solid #fff;
+    border-bottom: 4px solid #66FCF1;
+    color: #66FCF1;
     transition: all 0.2s ease-out;
   }
 
@@ -108,7 +109,7 @@
     .nav-menu.active {
       background: #242222;
       left: 0;
-      opacity: 1;
+      opacity: 0.7;
       transition: all 0.5s ease;
       z-index: 1;
     }

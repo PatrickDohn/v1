@@ -1,28 +1,31 @@
 .project-container {
-    padding: 4rem;
     padding-top: calc(4rem + 80px);
-    background-color: #1D3F55;
+    background-color: #0b0c10;
   }
 
   h1 {
     text-align: center;
-    color: #fff;
+    color: #66FCF1;
   }
 
   .cards__container {
-    display: flex;
+    display: grid;
     flex-flow: column;
     align-items: center;
-    max-width: 1120px;
-    width: 90%;
+    justify-content: flex-end;
+    width: 100vw;
     margin: 0 auto;
   }
 
-  .cards__wrapper {
-    position: relative;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 50px 0 45px;
+  .card-one-container {
+    width: 100vw;
+    margin-left: 20px;
+    display: grid;
+    justify-content: flex-start;
+  }
+
+  .card-two-container {
+    width: 100vw;
+    display: grid;
+    justify-content: flex-end;
   }

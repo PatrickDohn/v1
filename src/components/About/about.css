@@ -1,5 +1,5 @@
 .about-container {
-    background-color: #1D3F55;
+    background-color: #0b0c10;
     height: 100vh;
     z-index: 2;
     display: flex;
@@ -10,12 +10,14 @@
   }
 
   .about-summary {
-    color: #fff;
-    margin-bottom: 70px;
+    color: #66FCF1;
+    width: 100%;
+    height: 20%;
+    font-size: 30px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
+    align-items: flex-start;
+    justify-content: start;
 
 
 
@@ -28,7 +30,6 @@
   }
 
   .about-summary-text {
-
     width: 50%;
     text-align: center;
 
@@ -95,7 +96,7 @@
   }
 
   .about-link-items:hover {
-    color: #ca6d65;
+    color: #66FCF1;
     transition: 0.3s ease-out;
   }
 
