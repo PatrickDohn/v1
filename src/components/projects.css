@@ -9,10 +9,10 @@
   }
 
   .cards__container {
-    display: grid;
+    display: flex;
     flex-flow: column;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-around;
     width: 100vw;
     margin: 0 auto;
   }
@@ -20,12 +20,12 @@
   .card-one-container {
     width: 100vw;
     margin-left: 20px;
-    display: grid;
-    justify-content: flex-start;
+    justify-content: center;
+
   }
 
   .card-two-container {
     width: 100vw;
-    display: grid;
-    justify-content: flex-end;
+    justify-content: center;
+
   }

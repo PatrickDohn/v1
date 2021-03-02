@@ -4,9 +4,9 @@
   margin: 40px;
   display: flex;
   background-color: #0b0c10;
-  border-radius: 20px;
   justify-content: flex-end;
   border-left: 1px solid #66FCF1;
+  border-bottom: 1px solid #66FCF1;
 }
 
 
