@@ -1,39 +1,50 @@
-.card-container {
-    height: 500px;
-    width: 900px;
-    margin: 40px;
+.article-image {
+  width: 900px;
     display: flex;
-    justify-content: flex-end;
-    border-left: 1px solid #66FCF1;
-    border-bottom: 1px solid #66FCF1;
-    background: url('../../images/Medi-thanks.png');
-    background-repeat: no-repeat;
+}
+.article-image:before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: url('../../images/Medi-thanks.png');
+  background-repeat: no-repeat;
     object-fit: contain;
     background-size: cover;
-  }
+  -webkit-filter: grayscale(0) blur(0);
+  filter: grayscale(0) blur(0);
+  transition: .4s ease-in-out;
+}
+.article-image:hover:before {
+  -webkit-filter: grayscale(100%) blur(2px);
+  filter: grayscale(100%) blur(2px);
+  transition: .4s ease-in-out;
+}
+.ar-image {
+  position: relative;
+  width: 938px;
+  height: 550px;
+  object-fit: contain;
+}
+.article-image > p {
+  display: none;
+}
+.article-image:hover > .stuff {
+  position: absolute;
+  top: 40%;
+  display: block;
+  z-index: 9999999;
+  width: 100%;
+  height: 100%;
+  text-align: center;
 
-  .card-container:hover {
-    -webkit-filter: grayscale(100%) blur(2px);
-    filter: grayscale(100%) blur(2px);
-    transition: .4s ease-in-out;
-  }
-
-  .card-container:hover > .stuff {
-    position: absolute;
-    top: 40%;
-    display: block;
-    z-index: 9999999;
-    transition: .4s ease-in-out;
-  }
-
-
-  .stuff {
-      display: none;
-  }
+}
 
 
 
-/*
+
 .card-img {
 height: 500px;
 display: flex;
@@ -112,4 +123,4 @@ color: #e9e9e9;;
 .web-icon:hover {
 color: #ca6d65;
 transition: 0.3s ease-out;
-} */
+}
