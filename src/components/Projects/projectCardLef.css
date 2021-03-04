@@ -14,7 +14,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
   }
 
   .card-img-left > img {
@@ -23,6 +22,11 @@
     border-top: 1px solid #66FCF1;
     border-bottom: 1px solid #66FCF1;
     border-left: 1px solid #66FCF1;
+    filter: invert(42%) sepia(40%) saturate(1908%) hue-rotate(160deg) brightness(103%) contrast(102%);
+  }
+
+  .card-img-left > img:hover {
+    filter: none
   }
 
 
