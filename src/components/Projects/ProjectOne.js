@@ -1,6 +1,6 @@
 import React from 'react'
 import './projectCardLef.css'
-import KettleImg from '../../images/ProjectTwo.png'
+import MediThanks from '../../images/Medi-thanks.png'
 import WebAssetIcon from '@material-ui/icons/WebAsset';
 
 function ProjectOne({ data }) {
@@ -9,7 +9,7 @@ console.log('data', data)
   return (
     <div className="card-one-container">
       <div className="card-img-left">
-        <img alt="project" src={KettleImg} />
+        <img alt="project" src={data.projectImg} />
       </div>
       <div className="card-content-left">
         <div className="project-title-left">
