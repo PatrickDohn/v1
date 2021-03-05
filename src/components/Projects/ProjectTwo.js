@@ -1,14 +1,15 @@
 import React from 'react'
 import './projectCard.css'
-import MediThanks from '../../images/Medi-thanks.png'
+import MediThanks from '../../images/ProjectTwo.png'
 import WebAssetIcon from '@material-ui/icons/WebAsset';
 
 function ProjectTwo() {
+
+
   return (
-    <div className="card-container">
-      <div className="card-img">
-        <img alt="project" src={MediThanks} />
-      </div>
+    <div className="background">
+    <div className="background-image">
+      <div className="stuff">
       <div className="card-content">
         <div className="project-title">
           <p>General Assembly 2020 Hackathon Winner</p>
@@ -28,7 +29,9 @@ function ProjectTwo() {
             </a>
         </div>
       </div>
+      </div>
     </div>
+  </div>
   )
 }
 

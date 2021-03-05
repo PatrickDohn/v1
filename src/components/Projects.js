@@ -1,6 +1,7 @@
 import React from 'react';
 import './projects.css';
 import ProjectFour from './Projects/ProjectFour'
+import ProjectTwo from './Projects/ProjectTwo'
 import projectData from '../project-data.json'
 
 function Projects() {
@@ -11,6 +12,7 @@ function Projects() {
       <h1>Projects</h1>
       <div className='cards__container'>
             <ProjectFour />
+            <ProjectTwo />
       </div>
     </div>
   );

@@ -1,13 +1,13 @@
 import React from 'react'
-import './temp.css'
+import './projectCard.css'
 import KettleImg from '../../images/ProjectTwo.png'
 import MediThanks from '../../images/Medi-thanks.png'
 import WebAssetIcon from '@material-ui/icons/WebAsset';
 
 function ProjectFour() {
   return (
-  <div className="ar-image">
-    <div className="article-image">
+  <div className="background">
+    <div className="background-image">
       <div className="stuff">
       <div className="card-content">
         <div className="project-title">
