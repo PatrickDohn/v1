@@ -1,11 +1,12 @@
 .navbar {
     background: rgba(0,0,0,0.5);
     height: 80px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    position: sticky !important;
+    position: fixed;
     top: 0;
     z-index: 999;
   }

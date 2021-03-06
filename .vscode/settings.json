@@ -1,0 +1,15 @@
+{
+  "editor.formatOnSave": true,
+  "editor.wordWrapColumn": 80,
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#044204",
+    "titleBar.activeBackground": "#044204",
+    "titleBar.activeForeground": "#FBFBF6"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
