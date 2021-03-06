@@ -15,6 +15,15 @@
   box-shadow: 19px 18px 37px -13px rgba(0, 0, 0, 0.75);
 }
 
+.feat-project-tags {
+  width: 50%;
+  display: flex;
+  font-size: 15px;
+  font-weight: 600;
+  justify-content: space-between;
+  color: #c5c6c7;
+}
+
 .info-container {
   font-size: 25px;
   font-weight: 600;

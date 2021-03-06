@@ -1,6 +1,7 @@
 import React from 'react';
 import KettleImg from './images/Kettle.png';
 import MediThanks from './images/Medi-thanks.png';
+import ResGenImg from './images/Res-Gen.png';
 
 const data = {
   projectOne: {
@@ -24,6 +25,17 @@ const data = {
       "A web app for frontline medical workers to receive appreciation for their work Through a digital forum for public 'thank you cards' (People can sign up and post appreciation for specific hospitals or in general so that they can feel seen and understand their impact)",
     liveUrl: 'https://medithanks.co/#/',
     githubUrl: 'https://pb-j.github.io/frontline-frontend/#/',
+  },
+  projectThree: {
+    heading: '',
+    projectImg: ResGenImg,
+    title: 'Res-Genie',
+    subtitle: 'Resume builder.',
+    tags: ['React', 'Javascript'],
+    description:
+      'Resume building application for software developers. Built using React, the app transforms JSON into a downloadable PDF.',
+    liveUrl: 'https://res-gen.netlify.app/#/',
+    githubUrl: 'https://github.com/starter-code/res-gen',
   },
 };
 
