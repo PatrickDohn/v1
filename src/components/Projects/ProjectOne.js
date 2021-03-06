@@ -1,10 +1,11 @@
-import React from 'react'
-import './projectCardLef.css'
-import MediThanks from '../../images/Medi-thanks.png'
+import React from 'react';
+import './projectCardLef.css';
+import MediThanks from '../../images/Medi-thanks.png';
 import WebAssetIcon from '@material-ui/icons/WebAsset';
 
 function ProjectOne({ data }) {
-console.log('data', data)
+  console.log('data', data.tags);
+  const tagItems = data.tags.map((tag) => <li className="tags">{tag}</li>);
 
   return (
     <div className="card-one-container">
@@ -17,21 +18,25 @@ console.log('data', data)
           <h2>{data.title}</h2>
           <p>{data.subtitle}</p>
         </div>
+        <div className="project-tags">{tagItems}</div>
         <div className="project-desciption-left">
           <p>{data.description}</p>
         </div>
         <div className="project-card-links-left">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css" />
-            <a href={data.liveUrl}>
+          <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css"
+          />
+          <a href={data.liveUrl}>
             <i className="devicon-github-plain dev"></i>
-            </a>
-            <a href={data.githubUrl}>
-            <WebAssetIcon className='web-icon-left' />
-            </a>
+          </a>
+          <a href={data.githubUrl}>
+            <WebAssetIcon className="web-icon-left" />
+          </a>
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default ProjectOne
+export default ProjectOne;

@@ -41,6 +41,14 @@
   padding-left: 10px;
 }
 
+.project-tags {
+  margin: 2px;
+}
+
+.tags {
+  list-style-type: none;
+}
+
 .project-title-left > h2 {
   color: #66fcf1;
 }
