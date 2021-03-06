@@ -18,10 +18,12 @@ function ProjectOne({ data }) {
           <h2>{data.title}</h2>
           <p>{data.subtitle}</p>
         </div>
-        <div className="project-tags">{tagItems}</div>
-        <div className="project-desciption-left">
-          <p>{data.description}</p>
-        </div>
+        <section className="description-tags-setion">
+          <div className="project-desciption-left">
+            <p>{data.description}</p>
+          </div>
+          <div className="project-tags">{tagItems} </div>
+        </section>
         <div className="project-card-links-left">
           <link
             rel="stylesheet"

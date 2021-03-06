@@ -2,6 +2,7 @@ import React from 'react';
 import './featureproject.css';
 import ProjectImg from '../../images/Res-Gen.png';
 import WebAssetIcon from '@material-ui/icons/WebAsset';
+import GitHubIcon from '@material-ui/icons/GitHub';
 import projectData from '../../project-data';
 
 function FeatureProject() {
@@ -20,17 +21,18 @@ function FeatureProject() {
           />
         </div>
         <section className="project-summary">
+          <div className="feat-title">{data.title}</div>
           <div className="info-container">
             <p>{data.description}</p>
+            <div className="feat-project-tags">{tagItems}</div>
           </div>
-          <div className="feat-project-tags">{tagItems}</div>
           <div className="project-link">
             <link
               rel="stylesheet"
               href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css"
             />
             <a href={data.githubUrl}>
-              <i className="devicon-github-plain dev"></i>
+              <GitHubIcon className="feat-web-icon" />
             </a>
             <a href={data.liveUrl}>
               <WebAssetIcon className="feat-web-icon" />

@@ -23,15 +23,15 @@
   margin-bottom: 100px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
 }
 
 .hero-tags {
   display: flex;
-  margin-top: 130px;
+  margin-top: 13px;
   width: 40%;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .hero-tags > a {
@@ -39,7 +39,7 @@
 }
 
 .dev-hero {
-  font-size: 50px;
+  font-size: 30px;
   color: #c5c6c7;
 }
 

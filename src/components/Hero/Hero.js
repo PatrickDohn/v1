@@ -7,8 +7,6 @@ function Hero() {
       <div className="hero-title">
         <h1>Patrick Dohn</h1>
         <p>Fullstack Developer</p>
-      </div>
-      <div className="hero-info">
         <div className="hero-tags">
           <link
             rel="stylesheet"
@@ -26,6 +24,8 @@ function Hero() {
             <i className="devicon-linkedin-plain dev-hero"></i>
           </a>
         </div>
+      </div>
+      <div className="hero-info">
         <div className="hero-info-text">
           <h2>A little about me.</h2>
           <p>
@@ -41,9 +41,3 @@ function Hero() {
 }
 
 export default Hero;
-
-// #0b0c10
-// #1F2833
-// #C5C6C7
-// #66FCF1
-// #45A29E

@@ -29,7 +29,7 @@ const data = {
   projectThree: {
     heading: '',
     projectImg: ResGenImg,
-    title: 'Res-Genie',
+    title: 'ResGenie',
     subtitle: 'Resume builder.',
     tags: ['React', 'Javascript'],
     description:

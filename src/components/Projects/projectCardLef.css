@@ -42,15 +42,24 @@
 }
 
 .project-tags {
-  margin: 2px;
   display: flex;
   align-items: flex-start;
-  justify-content: space-around;
+  justify-content: flex-start;
+  padding-top: 10px;
   font-size: 12px;
+}
+
+.description-tags-setion {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 30%;
 }
 
 .tags {
   list-style-type: none;
+  padding-right: 5px;
+  color: #66fcf1;
 }
 
 .project-title-left > h2 {
@@ -62,7 +71,6 @@
 }
 
 .project-desciption-left {
-  /* border: 2px solid red; */
   margin-right: 20px;
 }
 
@@ -74,7 +82,6 @@
   display: flex;
   width: 100%;
   font-size: 20px;
-  /* border: 2px solid red; */
   justify-content: space-around;
   align-items: center;
 }
@@ -98,3 +105,9 @@
   color: #66fcf1;
   transition: 0.3s ease-out;
 }
+
+/* // #0b0c10
+// #1F2833
+// #C5C6C7
+// #66FCF1
+// #45A29E */
