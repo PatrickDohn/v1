@@ -1,18 +1,16 @@
 import React from 'react';
-import './about.css';
-import { Button } from '../Button';
-import { Link } from 'react-router-dom';
+import './technologies.css';
 
-function About() {
+function Technologies() {
   return (
-    <div className="about-container" id="about">
-      <section className="about-summary">
-        <h2 className="about-summary-text">Technologies I've used.</h2>
+    <div className="tech-container" id="technologies">
+      <section className="tech-summary">
+        <h1 className="tech-summary-text">Technologies I've used.</h1>
       </section>
-      <div className="about-links">
-        <div className="about-link-wrapper">
+      <div className="tech-links">
+        <div className="tech-link-wrapper">
           <div>
-            <div className="about-link-items">
+            <div className="tech-link-items">
               <link
                 rel="stylesheet"
                 href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css"
@@ -20,7 +18,7 @@ function About() {
               <i className="devicon-react-original-wordmark dev"></i>
             </div>
 
-            <div className="about-link-items">
+            <div className="tech-link-items">
               <link
                 rel="stylesheet"
                 href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css"
@@ -28,7 +26,7 @@ function About() {
               <i className="devicon-javascript-plain dev"></i>
             </div>
 
-            <div className="about-link-items">
+            <div className="tech-link-items">
               <link
                 rel="stylesheet"
                 href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css"
@@ -38,7 +36,7 @@ function About() {
           </div>
 
           <div>
-            <div className="about-link-items">
+            <div className="tech-link-items">
               <link
                 rel="stylesheet"
                 href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css"
@@ -46,7 +44,7 @@ function About() {
               <i className="devicon-css3-plain dev"></i>
             </div>
 
-            <div className="about-link-items">
+            <div className="tech-link-items">
               <link
                 rel="stylesheet"
                 href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css"
@@ -54,7 +52,7 @@ function About() {
               <i className="devicon-django-plain dev"></i>
             </div>
 
-            <div className="about-link-items">
+            <div className="tech-link-items">
               <link
                 rel="stylesheet"
                 href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css"
@@ -63,7 +61,7 @@ function About() {
             </div>
           </div>
           <div>
-            <div className="about-link-items">
+            <div className="tech-link-items">
               <link
                 rel="stylesheet"
                 href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css"
@@ -71,7 +69,7 @@ function About() {
               <i className="devicon-python-plain-wordmark dev"></i>
             </div>
 
-            <div className="about-link-items">
+            <div className="tech-link-items">
               <link
                 rel="stylesheet"
                 href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css"
@@ -79,7 +77,7 @@ function About() {
               <i className="devicon-mongodb-plain-wordmark dev"></i>
             </div>
 
-            <div className="about-link-items">
+            <div className="tech-link-items">
               <link
                 rel="stylesheet"
                 href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css"
@@ -93,4 +91,4 @@ function About() {
   );
 }
 
-export default About;
+export default Technologies;

@@ -6,6 +6,7 @@
 
 .feat-project-container > h1 {
   color: #66fcf1;
+  font-size: 2em;
 }
 
 .feat-project-img {
@@ -67,8 +68,8 @@
   width: 70%;
 }
 
-.project-link > .MuiSvgIcon-root {
-  margin-right: 8px;
+.MuiSvgIcon-root {
+  margin-right: 15px;
 }
 
 .content-container {

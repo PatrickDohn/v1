@@ -1,6 +1,5 @@
 import React from 'react';
-import './projectCardLef.css';
-import MediThanks from '../../images/Medi-thanks.png';
+import './projectCard.css';
 import WebAssetIcon from '@material-ui/icons/WebAsset';
 
 function ProjectOne({ data }) {

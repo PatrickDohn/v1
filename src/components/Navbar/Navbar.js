@@ -22,7 +22,7 @@ function Navbar() {
           </div>
 
           <Scrollspy
-            items={['projects', 'about', 'home']}
+            items={['projects', 'technologies', 'home']}
             offset={-50}
             onUpdate={(el) => {
               console.log(el);
@@ -54,11 +54,11 @@ function Navbar() {
               </li>
               <li className="nav-item">
                 <a
-                  href="#about"
+                  href="#technologies"
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >
-                  About
+                  Tech
                 </a>
               </li>
               <li className="nav-item">
